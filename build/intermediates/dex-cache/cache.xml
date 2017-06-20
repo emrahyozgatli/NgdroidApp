@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_d267883828b8e28284d50c83bcb37ca5a14b5a5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98a17b1d2c8f48b53df60d250c959b6cd44dab7c">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_17a4a7bcc852c3daca22c08244d7ec4d42512e90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_61a3bab22d44c84f0def4fa792c5b521a9d5826d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7030592fab6d4c70c2328ca72782f5b51c4ee34">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a6a095f0ae8e3b5af4bdbb3c67b19e1a90d6ccb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_41043c816b380e7cccd6cad1b6235b888775b604\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_50d05e7f797212cb16d75c0e298d89c022ae2784\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_7828e000242b05b87c81639d7c89896619305f96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_5b8b93d96f67a5c1f52ed90aa0a96d9ac38e1dca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_5f7a55be4755124fc580a4d3684bd86cec7d9b18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_692834a92e89c94ced26f818406e5a820f89c834\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_8d6deb02e0d6a4a6474c0353c25e3034aece4ce1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\dev\android\workspace\NgdroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_f4121a5403e97b20a9486901549b20414a211457\classes.dex" />
+    </item>
+
+</items>

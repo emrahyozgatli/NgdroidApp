@@ -1,0 +1,7 @@
+#Tue Jun 20 09:24:48 AST 2017
+base.0=C\:\\dev\\android\\workspace\\NgdroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_17a4a7bcc852c3daca22c08244d7ec4d42512e90
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\dev\\android\\workspace\\NgdroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a6a095f0ae8e3b5af4bdbb3c67b19e1a90d6ccb5\\classes.dex
+base.1=C\:\\dev\\android\\workspace\\NgdroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a6a095f0ae8e3b5af4bdbb3c67b19e1a90d6ccb5
+file.0=C\:\\dev\\android\\workspace\\NgdroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_17a4a7bcc852c3daca22c08244d7ec4d42512e90\\classes.dex
