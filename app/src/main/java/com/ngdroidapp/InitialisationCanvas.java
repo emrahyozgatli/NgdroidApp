@@ -19,8 +19,11 @@ public class InitialisationCanvas extends BaseCanvas {
     }
 
 
-    public void update() {
-        GameCanvas mc = new GameCanvas(root);
+    public void update()
+    {
+        MenuCanvas mc=new MenuCanvas(root);
+
+      // GameCanvas mc = new GameCanvas(root);
         root.canvasManager.setCurrentCanvas(mc);
     }
 

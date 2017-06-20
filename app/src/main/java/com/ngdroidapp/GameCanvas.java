@@ -2,6 +2,7 @@ package com.ngdroidapp;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.graphics.Rect;
 
 import java.util.Random;
@@ -41,6 +42,9 @@ public class GameCanvas extends BaseCanvas {
     int touchx, touchy;
 
     private NgMediaPlayer arkaplan_muzik;
+    private Paint textcolor;
+    private int textsize;
+    private String text;
 
 
     public GameCanvas(NgApp ngApp) {
@@ -137,6 +141,13 @@ public class GameCanvas extends BaseCanvas {
         bulletoffsety_temp =128;
         bulletx_temp =0;
         bullety_temp =0;
+
+        textcolor=new Paint();
+        textcolor.setARGB(255,255,0,0);
+        textsize=64;
+        textcolor.setTextSize(textsize);
+        textcolor.setTextAlign(Paint.Align.CENTER);
+        text="GAME OVER";
     }
 
     public void draw(Canvas canvas) {
@@ -173,10 +184,14 @@ public class GameCanvas extends BaseCanvas {
 
             canvas.drawBitmap(buttons, restartsrc, restartdst, null);
             canvas.drawBitmap(buttons, exitsrc, exitdst, null);
+            canvas.drawText(text,getWidthHalf(),getHeightHalf()-300,textcolor);
         }
     }
 
-    public void update() {
+    public void update()
+    {
+
+
         tilesrc.set(0,0,64,64);
         playsrc.set(0,0,256,256);
         playdst.set(getWidthHalf()-64,getHeightHalf()-64,getWidthHalf()+64,getHeightHalf()+64);
@@ -254,6 +269,7 @@ public class GameCanvas extends BaseCanvas {
                 enemyexits=false;
                 enemydst.set(0,0,0,0);
                 exploded=true;
+                guishow=true;
                 root.soundManager.play(sesefekti_patlama);
             }
         }
@@ -459,7 +475,7 @@ public class GameCanvas extends BaseCanvas {
         {
             if(restartdst.contains(x,y)){
                 Log.i(TAG,"RESTART TIKLANDI");
-                root.setup();
+                setup();
             }
             if(exitdst.contains(x,y)){
                 Log.i(TAG,"EXİT TIKLANDI");
